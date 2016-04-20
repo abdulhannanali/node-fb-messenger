@@ -23,7 +23,6 @@ FBMessenger.prototype.sendImageMessage = function (id, imageURL, cb) {
   this.sendMessage(id, messageData, cb)
 }
 
-FBMessenger.prototype.sendGenericMessage =
 FBMessenger.prototype.sendHScrollMessage = function (id, elements, cb) {
   var messageData = {
     'attachment': {
